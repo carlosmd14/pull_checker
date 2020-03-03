@@ -104,7 +104,7 @@ for url in page_list[:top_limit]:
         if api_limit == 98:
             print("")
             if input("\nAPI limit reached.\n\nYou have 100 labs to check. Want to wait 100 seconds and retrieve more? (y/n)") == "y":                
-                print(f"\nRetrieveing more labs...\n\nIn the meantime, did you know that {random.choice(fun).rstrip('.')}?\n")
+                print(f"\nRetrieving more labs...\n\nIn the meantime, did you know that {random.choice(fun).rstrip('.')}?\n")
                 time.sleep(100)
             
             else:
